@@ -2,6 +2,8 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import itemData from "./assets/item-data.json";
 import StoreItems from "./components/StoreItems";
+import Aggregator from "./components/Aggregator";
+
 
 itemData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
@@ -64,7 +66,7 @@ function App() {
         setSportFilters(copy);
       }
     }
-    console.log(sportFilter)
+    
     if(copy.length === 0){
       setItemArray(itemData);
       
@@ -113,9 +115,6 @@ function App() {
   
       }
 
-
-
-
   const filterByBrand = event => {
     const targetBrand = event.target.value;
     const checked = event.target.checked;
@@ -153,8 +152,6 @@ function App() {
   }
 
 
-
-
   return (
     <div className="App">
       <h1>My Sport Store</h1> {/* TODO: personalize your bakery (if you want) */}
@@ -168,8 +165,7 @@ function App() {
 
       <div className="cart">
         <h2>Cart</h2>
-        {cart.map(e => <p>{e.name} {e.price}</p>)}
-        <h3>Total Price = ${totalPrice}</h3>
+        <Aggregator cart={cart} totalPrice={totalPrice}/>
       </div>
 
       <div>
