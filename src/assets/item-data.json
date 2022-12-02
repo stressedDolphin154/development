@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Soccer Ball",
+        "description": "Fifa World Cup 2022 Adidas soccer ball",
+        "sport": "Soccer",
+        "brand": "Adidas",
+        "price": 24.99,
+        "image": "images/soccerball.webp"
+    },
+    {
+        "name": "Shin guards",
+        "description": "Nike shin guards made to withstand the impacts of a game of soccer",
+        "sport": "Soccer",
+        "brand": "Nike",
+        "price": 9.99,
+        "image": "images/shingaurds.webp"
+    },
+    {
+        "name": "Hockey Puck",
+        "description": "Durable rubber puck pefecto for ice hockey playing",
+        "sport": "Hockey",
+        "brand": "Adidas",
+        "price": 1.99,
+        "image": "images/hockeypuck.jpeg"
+    },
+    {
+        "name": "Hockey Stick",
+        "description": "Junior MS1 grip stick, perfect for control and power",
+        "sport": "Hockey",
+        "brand": "Bauer",
+        "price": 64.99,
+        "image": "images/hockeystick.jpeg"
+    },
+    {
+        "name": "Ice Skates",
+        "description": "Junior Bauer Supreme M1 skates",
+        "sport": "Hockey",
+        "brand": "Bauer",
+        "price": 99.99,
+        "image": "images/skates.webp"
+    },
+    {
+        "name": "Lacrosse Ball",
+        "description": "Yellow lacrosse ball",
+        "sport": "Lacrosse",
+        "brand": "Nike",
+        "price": 3.99,
+        "image": "images/laxball.webp"
+    },
+    {
+        "name": "Mens Lacrosse Stick",
+        "description": "Mens mesh Nike Alpha defense stick",
+        "sport": "Lacrosse",
+        "brand": "Nike",
+        "price": 174.99,
+        "image": "images/menslaxstick.webp"
+    },
+    {
+        "name": "Womens Lacrosse Stick",
+        "description": "Womens mesh Nike Lunar Elite composite stick",
+        "sport": "Lacrosse",
+        "brand": "Nike",
+        "price": 124.99,
+        "image": "images/womenslaxstick.webp"
+    },
+    {
+        "name": "Googles",
+        "description": "Adidas lacrosse googles",
+        "sport": "Lacrosse",
+        "brand": "Adidas",
+        "price": 14.99,
+        "image": "images/goggles.webp"
+    },
+    {
+        "name": "Cleats",
+        "description": "Adidas Predator Edge blue/orange cleats",
+        "sport": "Soccer",
+        "brand": "Adidas",
+        "price": 79.99,
+        "image": "images/cleats.webp"
+    },
+    {
+      "name": "Helmet",
+      "description": "",
+      "sport": "Hockey",
+      "brand": "Bauer",
+      "price": 39.99,
+      "image": "images/helmet.jpeg"
+    },
+    {
+      "name": "Gloves",
+      "description": "Black Nike goalkeeper gloves",
+      "sport": "Soccer",
+      "brand": "Nike",
+      "price": 21.99,
+      "image": "images/gloves.webp"
+    }
+  ]
+  
