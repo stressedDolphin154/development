@@ -20,6 +20,6 @@ Data is passed down through components using props. In my Aggregator component i
  
 ### How the User Triggers State Changes
  
-The user triggers state changes by clicking on either the radio buttons or one of the filtering checkboxes. This call functions that sort and filter through the data to display the desired outcome. I would like to point out that the popular radio button did work before deploying and now is currently not resetting the data but I did not change any of my code.
+The user triggers state changes by clicking on either the radio buttons or one of the filtering checkboxes. This call functions that sort and filter through the data to display the desired outcome. Click the popular radio button first to get the reset to work when you reclick on the popular button.
 
 
